@@ -18,3 +18,9 @@ ggplot(data = penguins, aes(x = body_mass_g,
   geom_point()
 ```
 
+```{r}
+adelie <- penguins %>% 
+  filter(species == "Adelie")
+```
+
+END
